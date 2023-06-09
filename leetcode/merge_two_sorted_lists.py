@@ -17,7 +17,7 @@
 # use recursion to assign next values
 
 def merge_two_sorted_lists(list1, list2):
-    """Takes in two linked lists node and returns the head of a sorted, merged linked list"""
+    """Takes in two linked list nodes and returns the head of a sorted, merged linked list"""
 
     if not list1:
         return list2
@@ -49,8 +49,8 @@ def merge_two_sorted_lists(list1, list2):
 def merge_two_sorted_lists_no_recursion(list1, list2):
     """Takes in two linked list nodes and returns the head of a sorted, merged linked list"""
 
-    start_node = ListNode(0)
     # we need a starting point to add our sorted nodes
+    start_node = ListNode(0)
     current_node = start_node
 
     while list1 and list2:

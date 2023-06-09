@@ -7,3 +7,4 @@ Learn more about the developer on [LinkedIn](https://www.linkedin.com/in/desiree
 - [Two Sum](https://leetcode.com/problems/two-sum/)
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 - [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
