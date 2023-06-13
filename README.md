@@ -8,3 +8,4 @@ Learn more about the developer on [LinkedIn](https://www.linkedin.com/in/desiree
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 - [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)

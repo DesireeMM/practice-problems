@@ -40,7 +40,7 @@ def find_max_profit(stock_list):
 # consider popping the last price
 # check other prices against popped price
 
-def faster_max_profit(stock_list, max_diff=None):
+def faster_max_profit(stock_list, max_diff=0):
     
     last_day = stock_list.pop()
 
@@ -49,7 +49,24 @@ def faster_max_profit(stock_list, max_diff=None):
 
     for item in stock_list:
         diff = last_day - item
-        if max_diff is None or diff > max_diff:
+        if diff > max_diff:
             max_diff = diff
         
     return faster_max_profit(stock_list, max_diff)
+
+# alternative
+
+def max_profit(stock_list):
+    left_index = 0
+    right_index = 1
+    max_profit = 0
+
+    while right_index < len(stock_list):
+        current_profit = stock_list[right_index] - stock_list[left_index]
+        if stock_list[left_index] < stock_list[right_index]:
+            max_profit = max(current_profit, max_profit)
+        else:
+            left_index = right_index
+        right_index += 1
+    
+    return max_profit
