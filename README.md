@@ -9,3 +9,4 @@ Learn more about the developer on [LinkedIn](https://www.linkedin.com/in/desiree
 - [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
